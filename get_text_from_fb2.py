@@ -5,6 +5,8 @@ from io import BytesIO
 import base64
 import sys
 
+# TODO: get all stuff without dividing fb2 file to html and binary
+# TODO: and pass filename as a second arg
 work_path = sys.argv[1] # e.g. /Users/sanya/Downloads
 
 f = open('%s/binary_fb2.html')
